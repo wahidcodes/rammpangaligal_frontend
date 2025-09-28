@@ -23,6 +23,9 @@ const Home = () => {
                 <div>
                     <button onClick={logOut}>Log Out</button>
                 </div>
+                <div>
+                    <a href="/register">Register</a>
+                </div>
             </ProtectedRoute>
         </>
     )
